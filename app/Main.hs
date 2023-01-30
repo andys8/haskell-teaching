@@ -1,4 +1,6 @@
 module Main where
 
+import DoNotation qualified
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = DoNotation.main
